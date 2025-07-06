@@ -1,4 +1,4 @@
-### LubanCat uEnv文件说明
+### darkos uEnv文件说明
 
 在U-boot启动时，通过SDRADC检测硬件ID引脚，并根据硬件ID值加载相应的uEnv.txt到U-boot环境变量中，
 
@@ -6,11 +6,11 @@
 
 #### 支持板卡：
 
-- LubanCat0 系列 基于RK3566
-- LubanCat1 系列 基于RK3566
-- LubanCat2 系列 基于RK3568
-- LubanCat4 系列 基于RK3588s
-- LubanCat5 系列 基于RK3588
+- darkos0 系列 基于RK3566
+- darkos1 系列 基于RK3566
+- darkos2 系列 基于RK3568
+- darkos4 系列 基于RK3588s
+- darkos5 系列 基于RK3588
 
 #### uEnv文件命名规范
 
