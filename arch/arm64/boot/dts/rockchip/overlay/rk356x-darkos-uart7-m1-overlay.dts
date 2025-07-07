@@ -3,12 +3,13 @@
 
 / {
 	fragment@0 {
-		target = <&uart3>;
+		target = <&uart7>;
 
 		__overlay__ {
 			status = "okay";
 			pinctrl-names = "default";
-			pinctrl-0 = <&uart3m0_xfer>;
+			pinctrl-0 = <&uart7m1_xfer>;
 		};
 	};
 };
+
