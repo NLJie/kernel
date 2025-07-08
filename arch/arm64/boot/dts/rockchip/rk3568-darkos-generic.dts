@@ -4,7 +4,8 @@
  *
  */
 
-#include "rk3568-darkos-ddr4-v1.dtsi"
+// #include "rk3568-darkos-ddr4-v1.dtsi"
+#include "rk3568-darkos-ddr4-A01.dtsi"
 #include "rk3568-linux.dtsi"
 #include <dt-bindings/display/rockchip_vop.h>
 
