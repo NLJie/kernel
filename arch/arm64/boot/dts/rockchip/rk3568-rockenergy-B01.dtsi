@@ -305,21 +305,21 @@
 };
 
 // 4. 低速接口部分
-&can1 {
-       assigned-clocks = <&cru CLK_CAN1>;
-       assigned-clock-rates = <150000000>;
-       pinctrl-names = "default";
-       pinctrl-0 = <&can1m0_pins>;
-       status = "okay";
-};
+// &can1 {
+//        assigned-clocks = <&cru CLK_CAN1>;
+//        assigned-clock-rates = <150000000>;
+//        pinctrl-names = "default";
+//        pinctrl-0 = <&can1m0_pins>;
+//        status = "okay";
+// };
 
-&can2 {
-    assigned-clocks = <&cru CLK_CAN2>;
-    assigned-clock-rates = <150000000>;
-    pinctrl-names = "default";
-    pinctrl-0 = <&can2m0_pins>;
-    status = "okay";
-};
+// &can2 {
+//     assigned-clocks = <&cru CLK_CAN2>;
+//     assigned-clock-rates = <150000000>;
+//     pinctrl-names = "default";
+//     pinctrl-0 = <&can2m0_pins>;
+//     status = "okay";
+// };
 
 &uart0 { 
 		status ="okay"; 
