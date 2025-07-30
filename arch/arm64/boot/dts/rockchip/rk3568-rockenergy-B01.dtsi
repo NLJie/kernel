@@ -345,6 +345,16 @@
 	pinctrl-0 = <&uart9m1_xfer>;
 };
 
+&i2c5 {
+	status = "okay";
+
+	rtc: rtc@51 {
+		compatible = "nxp,pcf85063";
+		reg = <0x51>;
+		status = "okay";
+	};
+};
+
 &pinctrl {
 
 	AH101-usb {
