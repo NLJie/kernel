@@ -159,7 +159,7 @@
 
 // 1. 网络部分
 &gmac0 {
-	phy-mode = "rgmii";
+	phy-mode = "rgmii-id";
 	clock_in_out = "input";
 	snps,reset-gpio = <&gpio2 RK_PD3 GPIO_ACTIVE_LOW>;
 	snps,reset-active-low;
@@ -178,15 +178,15 @@
                 &gmac0_rgmii_bus
 				&gmac0_clkinout>;
 
-	tx_delay = <0x1d>;
-	rx_delay = <0x1c>;
+	tx_delay = <0x34>;
+	rx_delay = <0x20>;
 
 	phy-handle = <&rgmii_phy0>;
 	status = "okay";
 };
 
 &gmac1 {
-	phy-mode = "rgmii";
+	phy-mode = "rgmii-id";
 	clock_in_out = "input";
 	snps,reset-gpio = <&gpio2 RK_PD1 GPIO_ACTIVE_LOW>;
 	snps,reset-active-low;
@@ -205,8 +205,8 @@
                 &gmac1m1_rgmii_bus
 				&gmac1m1_clkinout>;
 
-	tx_delay = <0x1d>;
-	rx_delay = <0x1c>;
+	tx_delay = <0x34>;
+	rx_delay = <0x20>;
 
 	phy-handle = <&rgmii_phy1>;
 	status = "okay";
